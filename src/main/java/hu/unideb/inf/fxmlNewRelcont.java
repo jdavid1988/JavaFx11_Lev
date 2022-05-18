@@ -5,7 +5,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 
-public class fxmlNewRel {
+public class fxmlNewRelcont {
 
     @FXML
     private ChoiceBox testalkat;

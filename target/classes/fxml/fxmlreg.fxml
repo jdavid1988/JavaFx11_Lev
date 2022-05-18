@@ -14,10 +14,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="739.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="739.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.fxmlregcont">
    <children>
-      <Label layoutX="68.0" layoutY="94.0" text="Regisztráció">
+      <Label layoutX="68.0" layoutY="94.0" text="Regisztráció" textFill="#f8f6f6">
          <font>
             <Font size="24.0" />
          </font>
@@ -39,34 +38,34 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="Név:">
+            <Label text="Név:" textFill="#f2eeee">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Kor:" GridPane.rowIndex="1">
+            <Label text="Kor:" textFill="#eeecec" GridPane.rowIndex="1">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Nem:" GridPane.rowIndex="2">
+            <Label text="Nem:" textFill="#f5f0f0" GridPane.rowIndex="2">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <Label text="Jelszó:" GridPane.rowIndex="3">
+            <Label text="Jelszó:" textFill="#f2efef" GridPane.rowIndex="3">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField GridPane.columnIndex="1" />
-            <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <PasswordField GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <ChoiceBox prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="name" GridPane.columnIndex="1" />
+            <TextField fx:id="age" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <PasswordField fx:id="password" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="gender" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
       <Separator layoutX="50.0" layoutY="516.0" prefHeight="14.0" prefWidth="499.0" />
-      <Button layoutX="400.0" layoutY="439.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0">
+      <Button layoutX="400.0" layoutY="439.0" mnemonicParsing="false" onAction="#pushButtonReg" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -84,21 +83,21 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="Név:">
+            <Label text="Név:" textFill="#e8e1e1">
                <font>
                   <Font size="14.0" />
                </font>
             </Label>
-            <TextField prefHeight="26.0" prefWidth="135.0" GridPane.rowIndex="1" />
+            <TextField fx:id="username" prefHeight="26.0" prefWidth="135.0" GridPane.rowIndex="1" />
          </children>
       </GridPane>
-      <PasswordField layoutX="324.0" layoutY="600.0" prefHeight="26.0" prefWidth="135.0" />
-      <Label layoutX="324.0" layoutY="575.0" text="Jelszó:">
+      <PasswordField fx:id="userpsw" layoutX="324.0" layoutY="600.0" prefHeight="26.0" prefWidth="135.0" />
+      <Label layoutX="324.0" layoutY="575.0" text="Jelszó:" textFill="#f5f3f3">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Button layoutX="400.0" layoutY="655.0" mnemonicParsing="false">
+      <Button layoutX="400.0" layoutY="655.0" mnemonicParsing="false" onAction="#pushButtonEntry" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="100.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                <image>

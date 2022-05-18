@@ -2,7 +2,7 @@ package hu.unideb.inf;
 
 import javafx.fxml.FXML;
 
-public class fxmlStrConn {
+public class fxmlStrConncont {
 
     @FXML
     void pushButtonBack (){
