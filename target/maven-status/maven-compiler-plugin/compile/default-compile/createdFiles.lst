@@ -1,4 +1,7 @@
 hu\unideb\inf\FXMLStudentsSceneController.class
+hu\unideb\inf\fxmlwelccont.class
 hu\unideb\inf\Main.class
-hu\unideb\inf\fxmlreg.class
+hu\unideb\inf\fxmlStrConncont.class
+hu\unideb\inf\fxmlregcont.class
 hu\unideb\inf\MainApp.class
+hu\unideb\inf\fxmlNewRelcont.class

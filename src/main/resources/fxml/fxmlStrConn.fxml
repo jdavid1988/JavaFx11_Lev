@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="739.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.fxmlStrConn">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="739.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.fxmlStrConncont">
    <children>
       <GridPane layoutX="72.0" layoutY="121.0" prefHeight="144.0" prefWidth="322.0">
         <columnConstraints>
@@ -55,7 +55,7 @@
             </Label>
          </children>
       </GridPane>
-      <Button layoutX="39.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonBack" style="-fx-background-color: black;">
+      <Button layoutX="39.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonBack" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="105.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -64,7 +64,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="225.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonEdit" style="-fx-background-color: black;">
+      <Button layoutX="225.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonEdit" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="42.0" fitWidth="154.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -73,7 +73,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="225.0" layoutY="653.0" mnemonicParsing="false" onAction="#pushButtonMainMenu" style="-fx-background-color: black;">
+      <Button layoutX="225.0" layoutY="653.0" mnemonicParsing="false" onAction="#pushButtonMainMenu" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="45.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -82,7 +82,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="428.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonForward" style="-fx-background-color: black;">
+      <Button layoutX="428.0" layoutY="596.0" mnemonicParsing="false" onAction="#pushButtonForward" style="-fx-background-color: orange;">
          <graphic>
             <ImageView fitHeight="105.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
                <image>
