@@ -1,7 +1,14 @@
 hu\unideb\inf\FXMLStudentsSceneController.class
 hu\unideb\inf\fxmlwelccont.class
 hu\unideb\inf\Main.class
+hu\unideb\inf\FileUserDAO.class
+hu\unideb\inf\User$GenderType.class
 hu\unideb\inf\fxmlStrConncont.class
+hu\unideb\inf\JpaUserDAO.class
+hu\unideb\inf\Application.class
+hu\unideb\inf\UserDAO.class
+hu\unideb\inf\User.class
+hu\unideb\inf\Tars.class
 hu\unideb\inf\fxmlregcont.class
 hu\unideb\inf\MainApp.class
 hu\unideb\inf\fxmlNewRelcont.class
