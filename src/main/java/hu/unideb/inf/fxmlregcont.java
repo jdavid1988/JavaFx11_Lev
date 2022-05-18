@@ -1,6 +1,9 @@
 package hu.unideb.inf;
 
 import com.sun.javafx.stage.EmbeddedWindow;
+import javafx.beans.Observable;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +21,7 @@ import java.io.IOException;
 public class fxmlregcont {
 
     private MainApp main;
+    ObservableList<String> genderList = FXCollections.observableArrayList("Férfi","Nő");
 
     @FXML
     private TextField name;
@@ -27,6 +31,12 @@ public class fxmlregcont {
 
     @FXML
     private ChoiceBox gender;
+
+    @FXML
+    private void initialize (){
+        gender.setItems(genderList);
+        gender.setValue("mm");
+    }
 
     @FXML
     private PasswordField password;
