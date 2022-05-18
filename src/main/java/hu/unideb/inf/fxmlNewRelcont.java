@@ -5,11 +5,15 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 
 public class fxmlNewRelcont {
     ObservableList<String> testalkatList = FXCollections.observableArrayList("Fullos","Átlagos","Többet soha");
-
+    @FXML
+    private RadioButton maleBtn;
+    @FXML
+    private RadioButton femaleBtn;
     @FXML
     private ChoiceBox testalkat;
 
